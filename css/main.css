@@ -592,9 +592,22 @@ placeholder {
   max-width: 450px;
 }
 
-@media (min-width: 480px) {
-  .subscribe__field {
-    min-width: 450px;
+@media (max-width: 480px) {
+  .subscribe__input {
+    width: 100%;
+  }
+}
+
+
+
+.subscribe__field{
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 480px) {
+  .subscribe__form {
+    min-width: 100%;
     margin-bottom: 20px;
   }
 }
@@ -1460,6 +1473,11 @@ placeholder {
   background-image: url(../images/send.svg);
 }
 
+@media (min-width: 320px){
+  .subscribe__input{
+    width: 100%;
+  }
+}
 /* ---------------PAGE PORTFOLIO----------------- */
 /* ---------------SECTION PORTFOLIO----------------- */
 .portfolio.section {
