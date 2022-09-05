@@ -598,13 +598,6 @@ placeholder {
   }
 }
 
-
-
-.subscribe__field{
-  margin-bottom: 20px;
-}
-
-
 @media (max-width: 480px) {
   .subscribe__form {
     min-width: 100%;
