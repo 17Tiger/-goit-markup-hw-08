@@ -595,6 +595,7 @@ placeholder {
 @media (min-width: 480px) {
   .subscribe__field {
     min-width: 450px;
+    margin-bottom: 20px;
   }
 }
 
