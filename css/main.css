@@ -306,6 +306,8 @@ svg {
 }
 
 /* ---------------MODAL WINDOW--------------------*/
+
+
 .backdrop {
   position: fixed;
   top: 0;
